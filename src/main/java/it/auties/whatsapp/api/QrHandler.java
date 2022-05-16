@@ -32,6 +32,7 @@ public interface QrHandler extends Consumer<BitMatrix> {
         return matrix -> {
             try {
                 var path = createTempFile(UUID.randomUUID().toString(), ".jpg");
+                System.out.printf("qr to file ,path: %s",path);
                 writeToPath(matrix, "jpg", path);
                 if(!isDesktopSupported()){
                     return;

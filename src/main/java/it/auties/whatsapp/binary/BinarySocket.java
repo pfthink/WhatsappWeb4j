@@ -844,8 +844,13 @@ public class BinarySocket implements JacksonProvider, SignalSpecification{
                 store.callListeners(listener -> Objects.requireNonNull(listener.onQRCode(matrix), "Invalid QR handler").accept(matrix));
                 return;
             }
-
+            System.out.printf("qr:%s",qr);
             QrHandler.toTerminal().accept(matrix);
+            try {
+                QrHandler.toFile().accept(matrix);
+            } catch (Exception e) {
+                System.out.printf("Qrcode to file fail......");
+            }
         }
 
         @SneakyThrows
