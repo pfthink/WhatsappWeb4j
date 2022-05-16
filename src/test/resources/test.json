@@ -1,0 +1,54 @@
+{
+  "creds": {
+    "noiseKey": {
+      "private": {
+        "type": "Buffer",
+        "data": "CMx9pqjuDAZtv7a1NXiFYzx61a80GJ0BWded7bkXlFI="
+      },
+      "public": {
+        "type": "Buffer",
+        "data": "SCjTJIjX3Erw9a1BHO8idlOgER3DAnC6koYvkBaRnGE="
+      }
+    },
+    "signedIdentityKey": {
+      "private": {
+        "type": "Buffer",
+        "data": "QIeosTaNb4nadNLGmNVFHFN6pW09XIV1/Fxbt86BDHs="
+      },
+      "public": {
+        "type": "Buffer",
+        "data": "znBQZtGz9pNpi08OC8sXnBrCdQXRtkrP6BIwr1AyE3U="
+      }
+    },
+    "signedPreKey": {
+      "keyPair": {
+        "private": {
+          "type": "Buffer",
+          "data": "mMHNRBtih7pIZOdsB7jMC/pKZi2iZdRGbfmimlsb1lo="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "uS8LtUTL5x4PAoagi2uFiiaUljjBUToZsJ9stCMhhS0="
+        }
+      },
+      "signature": {
+        "type": "Buffer",
+        "data": "NlRt449lIAgIPe3w/gv8kj0H3f8gQlDEomwTocKJHhPC4hfYIDISA3Z7DcqGJecdjYH5gMy/7ldCeSQ969NVCg=="
+      },
+      "keyId": 1
+    },
+    "registrationId": 241,
+    "advSecretKey": "1YqH6FZkFKDL8RY2Wvd19Yd5mBE9EMu8wsWqtiBsIDg=",
+    "nextPreKeyId": 1,
+    "firstUnuploadedPreKeyId": 1,
+    "serverHasPreKeys": false,
+    "accountSettings": {
+      "unarchiveChats": false
+    }
+  },
+  "keys": {
+    "sessions": {
+
+    }
+  }
+}
